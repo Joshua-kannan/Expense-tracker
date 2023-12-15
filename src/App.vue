@@ -1,6 +1,7 @@
 <template>
   <Header />
   <div class="container">
+    <!-- Your existing components -->
     <Balance :total="total" />
     <IncomeExpenses :income="+income" :expenses="+expenses" />
     <TransactionList
@@ -9,7 +10,9 @@
     />
     <AddTransaction @transactionSubmitted="handleTransactionSubmitted" />
   </div>
+  <Footer /> <!-- Add the Footer component here -->
 </template>
+
 
 <script setup>
 import Header from './components/Header.vue';
@@ -17,6 +20,7 @@ import Balance from './components/Balance.vue';
 import IncomeExpenses from './components/IncomeExpenses.vue';
 import TransactionList from './components/TransactionList.vue';
 import AddTransaction from './components/AddTransaction.vue';
+import Footer from './components/Footer.vue'; 
 
 import { ref, computed, onMounted } from 'vue';
 
