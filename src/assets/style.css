@@ -37,7 +37,6 @@ body {
   .container {
     width: 100%; /* Adjust the width for smaller screens */
     margin: auto; 
-    margin-bottom: 3rem;
   }
 }
 h1 {
