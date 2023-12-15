@@ -1,7 +1,7 @@
 <template>
   <Header />
   <div class="container">
-    <!-- Your existing components -->
+   
     <Balance :total="total" />
     <IncomeExpenses :income="+income" :expenses="+expenses" />
     <TransactionList
@@ -10,7 +10,7 @@
     />
     <AddTransaction @transactionSubmitted="handleTransactionSubmitted" />
   </div>
-  <Footer /> <!-- Add the Footer component here -->
+  <Footer /> 
 </template>
 
 

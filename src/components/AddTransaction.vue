@@ -35,7 +35,7 @@
   
   const onSubmit = () => {
     if (!text.value || !amount.value) {
-      // Display a toast error message if either field is empty
+    
       toast.error('Both fields must be filled.');
       return;
     }
@@ -47,7 +47,7 @@
   
     emit('transactionSubmitted', transactionData);
   
-    // Clear form fields
+ 
     text.value = '';
     amount.value = '';
   };
