@@ -24,13 +24,20 @@ body {
 
 .container {
   margin: 30px 20px; /* Adjust the left and right margins as needed */
-  width: 400px;
+  width: 450px;
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 0;
 }
 
-
+@media (max-width: 768px) {
+  /* Adjust styles for screens with a width of 768px or less (typical tablets and smaller screens) */
+  .container {
+    width: 95%; /* Adjust the width for smaller screens */
+    margin: 30px auto; /* Center the container on smaller screens */
+  }
+}
 h1 {
   letter-spacing: 1px;
   margin: 0;
