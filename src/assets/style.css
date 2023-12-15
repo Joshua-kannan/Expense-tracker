@@ -34,8 +34,8 @@ body {
 @media (max-width: 768px) {
   /* Adjust styles for screens with a width of 768px or less (typical tablets and smaller screens) */
   .container {
-    width: 95%; /* Adjust the width for smaller screens */
-    margin: 30px auto; /* Center the container on smaller screens */
+    width: 350px; /* Adjust the width for smaller screens */
+    margin: 10px auto; /* Center the container on smaller screens */
   }
 }
 h1 {
