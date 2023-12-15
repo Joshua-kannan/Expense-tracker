@@ -11,7 +11,6 @@
 body {
   background-color: #f8f8f8; /* Light gray background */
   color: #333; /* Dark text color */
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -23,15 +22,23 @@ body {
 }
 
 .container {
-  margin: 30px 20px; /* Adjust the left and right margins as needed */
+  margin: auto; 
   width: 450px;
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
-  margin-bottom: 0;
+  margin-bottom: 2.05rem;
+  margin-top: 2rem;
   padding: 30px;
 }
 
+@media (max-width: 768px) {
+  /* Adjust styles for screens with a width of 768px or less (typical tablets and smaller screens) */
+  .container {
+    width: 100%; /* Adjust the width for smaller screens */
+    margin: auto; 
+  }
+}
 h1 {
   letter-spacing: 1px;
   margin: 0;
