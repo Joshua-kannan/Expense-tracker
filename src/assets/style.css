@@ -28,7 +28,7 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
   margin-bottom: 2.05rem;
-  margin-top: 2rem;
+  margin-top: 8rem;
   padding: 30px;
 }
 
@@ -36,7 +36,7 @@ body {
   /* Adjust styles for screens with a width of 768px or less (typical tablets and smaller screens) */
   .container {
     width: 100%; /* Adjust the width for smaller screens */
-    margin: auto; 
+    margin-top: 3rem;
   }
 }
 h1 {
