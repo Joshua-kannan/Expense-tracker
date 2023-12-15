@@ -10,7 +10,7 @@
       color: #fff;
       text-align: center;
       padding: 1px;
-      position: relative;
+      position: unset;
       bottom: 0;
       left: 0; /* Set left to 0 to span the entire width */
       width: 100%;
